@@ -1,0 +1,962 @@
+{
+  "1000_full_rate": {
+    "2": {
+      "clean_mean_bias_fraction": {
+        "mean": -0.002659468308329971,
+        "min": -0.002659468308329971,
+        "max": -0.002659468308329971
+      },
+      "paired_aligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "paired_unaligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "clean_paired_unaligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "clean_paired_aligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "legacy_linear_paired_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "oracle_aligned_nrmse": {
+        "mean": 0.012391587323870218,
+        "min": 0.01202022676144256,
+        "max": 0.012982405755272855
+      },
+      "contamination_and_quantization_nrmse": {
+        "mean": 0.013064863206757699,
+        "min": 0.01261769972129222,
+        "max": 0.01362510845304377
+      },
+      "calibrated_delay_s": {
+        "mean": 0.09361448143576481,
+        "min": 0.0936144814357648,
+        "max": 0.0936144814357648
+      }
+    },
+    "5": {
+      "clean_mean_bias_fraction": {
+        "mean": -0.0026657750034503325,
+        "min": -0.0026657750034503325,
+        "max": -0.0026657750034503325
+      },
+      "paired_aligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "paired_unaligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "clean_paired_unaligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "clean_paired_aligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "legacy_linear_paired_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "oracle_aligned_nrmse": {
+        "mean": 0.012427688041493301,
+        "min": 0.011996277118160245,
+        "max": 0.01289696302616152
+      },
+      "contamination_and_quantization_nrmse": {
+        "mean": 0.0130801414958393,
+        "min": 0.012569285630638052,
+        "max": 0.013727738378662192
+      },
+      "calibrated_delay_s": {
+        "mean": 0.09364879973513386,
+        "min": 0.09364879973513386,
+        "max": 0.09364879973513386
+      }
+    }
+  },
+  "1000_prefilter_full_rate": {
+    "2": {
+      "clean_mean_bias_fraction": {
+        "mean": -0.002659468308329971,
+        "min": -0.002659468308329971,
+        "max": -0.002659468308329971
+      },
+      "paired_aligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "paired_unaligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "clean_paired_unaligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "clean_paired_aligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "legacy_linear_paired_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "oracle_aligned_nrmse": {
+        "mean": 0.012391587323870218,
+        "min": 0.01202022676144256,
+        "max": 0.012982405755272855
+      },
+      "contamination_and_quantization_nrmse": {
+        "mean": 0.013064863206757699,
+        "min": 0.01261769972129222,
+        "max": 0.01362510845304377
+      },
+      "calibrated_delay_s": {
+        "mean": 0.09361448143576481,
+        "min": 0.0936144814357648,
+        "max": 0.0936144814357648
+      }
+    },
+    "5": {
+      "clean_mean_bias_fraction": {
+        "mean": -0.0026657750034503325,
+        "min": -0.0026657750034503325,
+        "max": -0.0026657750034503325
+      },
+      "paired_aligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "paired_unaligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "clean_paired_unaligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "clean_paired_aligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "legacy_linear_paired_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "oracle_aligned_nrmse": {
+        "mean": 0.012427688041493301,
+        "min": 0.011996277118160245,
+        "max": 0.01289696302616152
+      },
+      "contamination_and_quantization_nrmse": {
+        "mean": 0.0130801414958393,
+        "min": 0.012569285630638052,
+        "max": 0.013727738378662192
+      },
+      "calibrated_delay_s": {
+        "mean": 0.09364879973513386,
+        "min": 0.09364879973513386,
+        "max": 0.09364879973513386
+      }
+    }
+  },
+  "1000_multirate": {
+    "2": {
+      "clean_mean_bias_fraction": {
+        "mean": -0.002659468308329971,
+        "min": -0.002659468308329971,
+        "max": -0.002659468308329971
+      },
+      "paired_aligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "paired_unaligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "clean_paired_unaligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "clean_paired_aligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "legacy_linear_paired_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "oracle_aligned_nrmse": {
+        "mean": 0.012391587323870218,
+        "min": 0.01202022676144256,
+        "max": 0.012982405755272855
+      },
+      "contamination_and_quantization_nrmse": {
+        "mean": 0.013064863206757699,
+        "min": 0.01261769972129222,
+        "max": 0.01362510845304377
+      },
+      "calibrated_delay_s": {
+        "mean": 0.09361448143576481,
+        "min": 0.0936144814357648,
+        "max": 0.0936144814357648
+      }
+    },
+    "5": {
+      "clean_mean_bias_fraction": {
+        "mean": -0.0026657750034503325,
+        "min": -0.0026657750034503325,
+        "max": -0.0026657750034503325
+      },
+      "paired_aligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "paired_unaligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "clean_paired_unaligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "clean_paired_aligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "legacy_linear_paired_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "oracle_aligned_nrmse": {
+        "mean": 0.012427688041493301,
+        "min": 0.011996277118160245,
+        "max": 0.01289696302616152
+      },
+      "contamination_and_quantization_nrmse": {
+        "mean": 0.0130801414958393,
+        "min": 0.012569285630638052,
+        "max": 0.013727738378662192
+      },
+      "calibrated_delay_s": {
+        "mean": 0.09364879973513386,
+        "min": 0.09364879973513386,
+        "max": 0.09364879973513386
+      }
+    }
+  },
+  "2000_full_rate": {
+    "2": {
+      "clean_mean_bias_fraction": {
+        "mean": -0.0026594685435863408,
+        "min": -0.0026594685435863408,
+        "max": -0.0026594685435863408
+      },
+      "paired_aligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "paired_unaligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "clean_paired_unaligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "clean_paired_aligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "legacy_linear_paired_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "oracle_aligned_nrmse": {
+        "mean": 0.012204111931339485,
+        "min": 0.011654092663567539,
+        "max": 0.012805760898035586
+      },
+      "contamination_and_quantization_nrmse": {
+        "mean": 0.012360683816303739,
+        "min": 0.012003199298883079,
+        "max": 0.012952969390520971
+      },
+      "calibrated_delay_s": {
+        "mean": 0.09554732999992994,
+        "min": 0.09554732999992996,
+        "max": 0.09554732999992996
+      }
+    },
+    "5": {
+      "clean_mean_bias_fraction": {
+        "mean": -0.002665775001560622,
+        "min": -0.002665775001560622,
+        "max": -0.002665775001560622
+      },
+      "paired_aligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "paired_unaligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "clean_paired_unaligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "clean_paired_aligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "legacy_linear_paired_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "oracle_aligned_nrmse": {
+        "mean": 0.012242878458282784,
+        "min": 0.011716767974173628,
+        "max": 0.012749096150595387
+      },
+      "contamination_and_quantization_nrmse": {
+        "mean": 0.0123769285132698,
+        "min": 0.012006117702970382,
+        "max": 0.012869424757184878
+      },
+      "calibrated_delay_s": {
+        "mean": 0.09558555831711428,
+        "min": 0.09558555831711427,
+        "max": 0.09558555831711427
+      }
+    }
+  },
+  "2000_prefilter_full_rate": {
+    "2": {
+      "clean_mean_bias_fraction": {
+        "mean": -0.00247419206795918,
+        "min": -0.00247419206795918,
+        "max": -0.00247419206795918
+      },
+      "paired_aligned_nrmse": {
+        "mean": 0.00018492644776777156,
+        "min": 0.00018492212531359865,
+        "max": 0.00018493116303477638
+      },
+      "paired_unaligned_nrmse": {
+        "mean": 0.03780114598970708,
+        "min": 0.03766921648675365,
+        "max": 0.0379285008897092
+      },
+      "clean_paired_unaligned_nrmse": {
+        "mean": 0.03683949425719536,
+        "min": 0.03683949425719536,
+        "max": 0.03683949425719536
+      },
+      "clean_paired_aligned_nrmse": {
+        "mean": 0.0001856695223076665,
+        "min": 0.00018566952230766648,
+        "max": 0.00018566952230766648
+      },
+      "legacy_linear_paired_nrmse": {
+        "mean": 0.0006353055792866927,
+        "min": 0.0006107413125669893,
+        "max": 0.0006562203177791896
+      },
+      "oracle_aligned_nrmse": {
+        "mean": 0.012195995525040557,
+        "min": 0.011666173641161168,
+        "max": 0.012802764747432634
+      },
+      "contamination_and_quantization_nrmse": {
+        "mean": 0.012360573118609216,
+        "min": 0.0120056081299674,
+        "max": 0.01295744499591754
+      },
+      "calibrated_delay_s": {
+        "mean": 0.10454732944169795,
+        "min": 0.10454732944169796,
+        "max": 0.10454732944169796
+      }
+    },
+    "5": {
+      "clean_mean_bias_fraction": {
+        "mean": -0.002480821003166267,
+        "min": -0.002480821003166267,
+        "max": -0.002480821003166267
+      },
+      "paired_aligned_nrmse": {
+        "mean": 0.00018408304267672455,
+        "min": 0.00018407065665832943,
+        "max": 0.00018409148520304628
+      },
+      "paired_unaligned_nrmse": {
+        "mean": 0.09223508962138229,
+        "min": 0.09200277224123976,
+        "max": 0.09243117284569426
+      },
+      "clean_paired_unaligned_nrmse": {
+        "mean": 0.09200444262079559,
+        "min": 0.0920044426207956,
+        "max": 0.0920044426207956
+      },
+      "clean_paired_aligned_nrmse": {
+        "mean": 0.00018482613432586648,
+        "min": 0.0001848261343258665,
+        "max": 0.0001848261343258665
+      },
+      "legacy_linear_paired_nrmse": {
+        "mean": 0.0016331246766253707,
+        "min": 0.0016196370679623768,
+        "max": 0.0016396559857670102
+      },
+      "oracle_aligned_nrmse": {
+        "mean": 0.012231517291597823,
+        "min": 0.011701893452418628,
+        "max": 0.012735022293044697
+      },
+      "contamination_and_quantization_nrmse": {
+        "mean": 0.012375186892850326,
+        "min": 0.011986981475227504,
+        "max": 0.012872930747396752
+      },
+      "calibrated_delay_s": {
+        "mean": 0.10458555494287351,
+        "min": 0.10458555494287351,
+        "max": 0.10458555494287351
+      }
+    }
+  },
+  "2000_multirate": {
+    "2": {
+      "clean_mean_bias_fraction": {
+        "mean": -0.002474190604671578,
+        "min": -0.002474190604671578,
+        "max": -0.002474190604671578
+      },
+      "paired_aligned_nrmse": {
+        "mean": 0.0028284078425483902,
+        "min": 0.002821471420144405,
+        "max": 0.002835627151958479
+      },
+      "paired_unaligned_nrmse": {
+        "mean": 0.02981940451111339,
+        "min": 0.02970876252596194,
+        "max": 0.02992228723929541
+      },
+      "clean_paired_unaligned_nrmse": {
+        "mean": 0.028935291947872442,
+        "min": 0.028935291947872442,
+        "max": 0.028935291947872442
+      },
+      "clean_paired_aligned_nrmse": {
+        "mean": 0.00018660752085484272,
+        "min": 0.0001866075208548427,
+        "max": 0.0001866075208548427
+      },
+      "legacy_linear_paired_nrmse": {
+        "mean": 0.0031546996644040634,
+        "min": 0.0031246610919302194,
+        "max": 0.003186389988929041
+      },
+      "oracle_aligned_nrmse": {
+        "mean": 0.012421135309487836,
+        "min": 0.012052296121612176,
+        "max": 0.013014975741725205
+      },
+      "contamination_and_quantization_nrmse": {
+        "mean": 0.013064575297451284,
+        "min": 0.01261157455958676,
+        "max": 0.013628674307986319
+      },
+      "calibrated_delay_s": {
+        "mean": 0.10261448102771993,
+        "min": 0.10261448102771994,
+        "max": 0.10261448102771994
+      }
+    },
+    "5": {
+      "clean_mean_bias_fraction": {
+        "mean": -0.0024808210050556445,
+        "min": -0.0024808210050556445,
+        "max": -0.0024808210050556445
+      },
+      "paired_aligned_nrmse": {
+        "mean": 0.00283056445519659,
+        "min": 0.0028228551006052355,
+        "max": 0.0028371363321768226
+      },
+      "paired_unaligned_nrmse": {
+        "mean": 0.07254362625851252,
+        "min": 0.0723581682021641,
+        "max": 0.07269366377477694
+      },
+      "clean_paired_unaligned_nrmse": {
+        "mean": 0.07230293097588456,
+        "min": 0.07230293097588457,
+        "max": 0.07230293097588457
+      },
+      "clean_paired_aligned_nrmse": {
+        "mean": 0.00018691314156832207,
+        "min": 0.00018691314156832207,
+        "max": 0.00018691314156832207
+      },
+      "legacy_linear_paired_nrmse": {
+        "mean": 0.004651463671418777,
+        "min": 0.004621851419926396,
+        "max": 0.004670714801125669
+      },
+      "oracle_aligned_nrmse": {
+        "mean": 0.012453724000656276,
+        "min": 0.012015073740403868,
+        "max": 0.012942509238615018
+      },
+      "contamination_and_quantization_nrmse": {
+        "mean": 0.013078036548502692,
+        "min": 0.012554435285542506,
+        "max": 0.013732073631213534
+      },
+      "calibrated_delay_s": {
+        "mean": 0.10264879726784511,
+        "min": 0.10264879726784511,
+        "max": 0.10264879726784511
+      }
+    }
+  },
+  "4000_full_rate": {
+    "2": {
+      "clean_mean_bias_fraction": {
+        "mean": -0.0026594721261191667,
+        "min": -0.0026594721261191667,
+        "max": -0.0026594721261191667
+      },
+      "paired_aligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "paired_unaligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "clean_paired_unaligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "clean_paired_aligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "legacy_linear_paired_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "oracle_aligned_nrmse": {
+        "mean": 0.012204039458009183,
+        "min": 0.011650234103204414,
+        "max": 0.012805791429643814
+      },
+      "contamination_and_quantization_nrmse": {
+        "mean": 0.012345157335173416,
+        "min": 0.011988081970367716,
+        "max": 0.012938189107617465
+      },
+      "calibrated_delay_s": {
+        "mean": 0.09531155874922388,
+        "min": 0.09531155874922387,
+        "max": 0.09531155874922387
+      }
+    },
+    "5": {
+      "clean_mean_bias_fraction": {
+        "mean": -0.0026657750018763693,
+        "min": -0.0026657750018763693,
+        "max": -0.0026657750018763693
+      },
+      "paired_aligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "paired_unaligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "clean_paired_unaligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "clean_paired_aligned_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "legacy_linear_paired_nrmse": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "oracle_aligned_nrmse": {
+        "mean": 0.012243020618710354,
+        "min": 0.011715491519308353,
+        "max": 0.01275067504595116
+      },
+      "contamination_and_quantization_nrmse": {
+        "mean": 0.012361668898148694,
+        "min": 0.011989796245290677,
+        "max": 0.012847506736581625
+      },
+      "calibrated_delay_s": {
+        "mean": 0.09534963260804148,
+        "min": 0.0953496326080415,
+        "max": 0.0953496326080415
+      }
+    }
+  },
+  "4000_prefilter_full_rate": {
+    "2": {
+      "clean_mean_bias_fraction": {
+        "mean": -0.0025214150416945635,
+        "min": -0.0025214150416945635,
+        "max": -0.0025214150416945635
+      },
+      "paired_aligned_nrmse": {
+        "mean": 0.00013690680896767267,
+        "min": 0.0001369009863075037,
+        "max": 0.00013691216775004337
+      },
+      "paired_unaligned_nrmse": {
+        "mean": 0.03675879381492192,
+        "min": 0.036630053605133016,
+        "max": 0.036883441073243685
+      },
+      "clean_paired_unaligned_nrmse": {
+        "mean": 0.035816826328507065,
+        "min": 0.03581682632850707,
+        "max": 0.03581682632850707
+      },
+      "clean_paired_aligned_nrmse": {
+        "mean": 0.00013825335480429973,
+        "min": 0.00013825335480429973,
+        "max": 0.00013825335480429973
+      },
+      "legacy_linear_paired_nrmse": {
+        "mean": 0.0007401063222244825,
+        "min": 0.000709598174031483,
+        "max": 0.0007666600168471268
+      },
+      "oracle_aligned_nrmse": {
+        "mean": 0.01219621955814899,
+        "min": 0.011657817511080361,
+        "max": 0.012802636252077513
+      },
+      "contamination_and_quantization_nrmse": {
+        "mean": 0.012344510714000724,
+        "min": 0.011989907992236749,
+        "max": 0.012942035601672166
+      },
+      "calibrated_delay_s": {
+        "mean": 0.10406155906422107,
+        "min": 0.10406155906422107,
+        "max": 0.10406155906422107
+      }
+    },
+    "5": {
+      "clean_mean_bias_fraction": {
+        "mean": -0.002528267303888554,
+        "min": -0.002528267303888554,
+        "max": -0.002528267303888554
+      },
+      "paired_aligned_nrmse": {
+        "mean": 0.0001354773597899611,
+        "min": 0.0001354650284287913,
+        "max": 0.0001354877835397193
+      },
+      "paired_unaligned_nrmse": {
+        "mean": 0.08969588511987113,
+        "min": 0.0894698930965499,
+        "max": 0.08988622752981082
+      },
+      "clean_paired_unaligned_nrmse": {
+        "mean": 0.08946344127453149,
+        "min": 0.0894634412745315,
+        "max": 0.0894634412745315
+      },
+      "clean_paired_aligned_nrmse": {
+        "mean": 0.0001368296109926348,
+        "min": 0.00013682961099263484,
+        "max": 0.00013682961099263484
+      },
+      "legacy_linear_paired_nrmse": {
+        "mean": 0.001950811847171002,
+        "min": 0.001934488151344926,
+        "max": 0.001958112586229751
+      },
+      "oracle_aligned_nrmse": {
+        "mean": 0.01223259927200184,
+        "min": 0.011699891647893652,
+        "max": 0.012738319860713204
+      },
+      "contamination_and_quantization_nrmse": {
+        "mean": 0.012359424678298451,
+        "min": 0.011970425265962302,
+        "max": 0.012850815969975468
+      },
+      "calibrated_delay_s": {
+        "mean": 0.10409963464080993,
+        "min": 0.10409963464080996,
+        "max": 0.10409963464080996
+      }
+    }
+  },
+  "4000_multirate": {
+    "2": {
+      "clean_mean_bias_fraction": {
+        "mean": -0.002521407133295517,
+        "min": -0.002521407133295517,
+        "max": -0.002521407133295517
+      },
+      "paired_aligned_nrmse": {
+        "mean": 0.0028619809569331374,
+        "min": 0.00285433369210727,
+        "max": 0.00286984318992281
+      },
+      "paired_unaligned_nrmse": {
+        "mean": 0.029764603494882507,
+        "min": 0.029653648176006003,
+        "max": 0.02986740606819639
+      },
+      "clean_paired_unaligned_nrmse": {
+        "mean": 0.028876572171529096,
+        "min": 0.0288765721715291,
+        "max": 0.0288765721715291
+      },
+      "clean_paired_aligned_nrmse": {
+        "mean": 0.00013906989496877733,
+        "min": 0.0001390698949687773,
+        "max": 0.0001390698949687773
+      },
+      "legacy_linear_paired_nrmse": {
+        "mean": 0.0031837543602544955,
+        "min": 0.0031537149664514997,
+        "max": 0.003216059492997385
+      },
+      "oracle_aligned_nrmse": {
+        "mean": 0.012412664766495711,
+        "min": 0.012044913489818208,
+        "max": 0.013006161612434513
+      },
+      "contamination_and_quantization_nrmse": {
+        "mean": 0.013063491233120455,
+        "min": 0.012610315534486376,
+        "max": 0.013626926801220261
+      },
+      "calibrated_delay_s": {
+        "mean": 0.10236448165733783,
+        "min": 0.10236448165733782,
+        "max": 0.10236448165733782
+      }
+    },
+    "5": {
+      "clean_mean_bias_fraction": {
+        "mean": -0.00252826730546174,
+        "min": -0.00252826730546174,
+        "max": -0.00252826730546174
+      },
+      "paired_aligned_nrmse": {
+        "mean": 0.0028640006451467843,
+        "min": 0.0028558237179764773,
+        "max": 0.0028711258415674997
+      },
+      "paired_unaligned_nrmse": {
+        "mean": 0.07240457387329696,
+        "min": 0.07221930592887435,
+        "max": 0.07255506545576128
+      },
+      "clean_paired_unaligned_nrmse": {
+        "mean": 0.07215751075597218,
+        "min": 0.07215751075597217,
+        "max": 0.07215751075597217
+      },
+      "clean_paired_aligned_nrmse": {
+        "mean": 0.00013873428488276506,
+        "min": 0.00013873428488276503,
+        "max": 0.00013873428488276503
+      },
+      "legacy_linear_paired_nrmse": {
+        "mean": 0.0046681502929558985,
+        "min": 0.004638398133086096,
+        "max": 0.004688313409025872
+      },
+      "oracle_aligned_nrmse": {
+        "mean": 0.012445874092663678,
+        "min": 0.012005027591974679,
+        "max": 0.012930914478654281
+      },
+      "contamination_and_quantization_nrmse": {
+        "mean": 0.013077182260301818,
+        "min": 0.012554095518074177,
+        "max": 0.013730873859900612
+      },
+      "calibrated_delay_s": {
+        "mean": 0.10239880116560136,
+        "min": 0.10239880116560136,
+        "max": 0.10239880116560136
+      }
+    }
+  },
+  "2000_multirate_notch": {
+    "2": {
+      "clean_mean_bias_fraction": {
+        "mean": -0.003381893955677562,
+        "min": -0.003381893955677562,
+        "max": -0.003381893955677562
+      },
+      "paired_aligned_nrmse": {
+        "mean": 0.0026707902639205375,
+        "min": 0.002664345401741092,
+        "max": 0.002675545766391861
+      },
+      "paired_unaligned_nrmse": {
+        "mean": 0.030169098331935783,
+        "min": 0.0300324350388626,
+        "max": 0.030287397392718587
+      },
+      "clean_paired_unaligned_nrmse": {
+        "mean": 0.029272023075282615,
+        "min": 0.02927202307528261,
+        "max": 0.02927202307528261
+      },
+      "clean_paired_aligned_nrmse": {
+        "mean": 0.0007245296164611586,
+        "min": 0.0007245296164611588,
+        "max": 0.0007245296164611588
+      },
+      "legacy_linear_paired_nrmse": {
+        "mean": 0.0029385947790815893,
+        "min": 0.002904933853148412,
+        "max": 0.002982337633429071
+      },
+      "oracle_aligned_nrmse": {
+        "mean": 0.012582253135601795,
+        "min": 0.011865925632347882,
+        "max": 0.013206775165346034
+      },
+      "contamination_and_quantization_nrmse": {
+        "mean": 0.012168896599044137,
+        "min": 0.011617757258536539,
+        "max": 0.012862252901426995
+      },
+      "calibrated_delay_s": {
+        "mean": 0.10269882736464978,
+        "min": 0.10269882736464975,
+        "max": 0.10269882736464975
+      }
+    },
+    "5": {
+      "clean_mean_bias_fraction": {
+        "mean": -0.003389087206114527,
+        "min": -0.003389087206114527,
+        "max": -0.003389087206114527
+      },
+      "paired_aligned_nrmse": {
+        "mean": 0.0026739832778836068,
+        "min": 0.002666452570904207,
+        "max": 0.0026790677876580636
+      },
+      "paired_unaligned_nrmse": {
+        "mean": 0.07336450558404314,
+        "min": 0.07313943728035156,
+        "max": 0.07352970556325666
+      },
+      "clean_paired_unaligned_nrmse": {
+        "mean": 0.07313871919490475,
+        "min": 0.07313871919490478,
+        "max": 0.07313871919490478
+      },
+      "clean_paired_aligned_nrmse": {
+        "mean": 0.0007258647493674381,
+        "min": 0.0007258647493674382,
+        "max": 0.0007258647493674382
+      },
+      "legacy_linear_paired_nrmse": {
+        "mean": 0.004275044117842156,
+        "min": 0.004251203362515818,
+        "max": 0.0043099358887888906
+      },
+      "oracle_aligned_nrmse": {
+        "mean": 0.012608411738284475,
+        "min": 0.011890650352525345,
+        "max": 0.01320751900232981
+      },
+      "contamination_and_quantization_nrmse": {
+        "mean": 0.012172142480260243,
+        "min": 0.011613911050520042,
+        "max": 0.01259419443321818
+      },
+      "calibrated_delay_s": {
+        "mean": 0.10273378660017614,
+        "min": 0.10273378660017615,
+        "max": 0.10273378660017615
+      }
+    }
+  }
+}

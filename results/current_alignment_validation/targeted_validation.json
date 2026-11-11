@@ -1,0 +1,386 @@
+{
+  "known_pure_delay_alignment": {
+    "tolerance_nrmse": 1e-06,
+    "cases": [
+      {
+        "fs": 1000,
+        "fm_hz": 2,
+        "delay_s": 0.00817,
+        "dense_cubic_nrmse": 9.488058147232841e-12,
+        "legacy_100hz_linear_nrmse": 0.0003943730726511823
+      },
+      {
+        "fs": 1000,
+        "fm_hz": 2,
+        "delay_s": 0.0085,
+        "dense_cubic_nrmse": 2.9780959260374553e-11,
+        "legacy_100hz_linear_nrmse": 0.00033630967435810226
+      },
+      {
+        "fs": 1000,
+        "fm_hz": 2,
+        "delay_s": 0.00883,
+        "dense_cubic_nrmse": 9.488048065810504e-12,
+        "legacy_100hz_linear_nrmse": 0.0002725023933040132
+      },
+      {
+        "fs": 1000,
+        "fm_hz": 5,
+        "delay_s": 0.00817,
+        "dense_cubic_nrmse": 3.7108941310813256e-10,
+        "legacy_100hz_linear_nrmse": 0.00245916272395967
+      },
+      {
+        "fs": 1000,
+        "fm_hz": 5,
+        "delay_s": 0.0085,
+        "dense_cubic_nrmse": 1.1639161167159163e-09,
+        "legacy_100hz_linear_nrmse": 0.002096976250634614
+      },
+      {
+        "fs": 1000,
+        "fm_hz": 5,
+        "delay_s": 0.00883,
+        "dense_cubic_nrmse": 3.7108933580934266e-10,
+        "legacy_100hz_linear_nrmse": 0.0016990104602874901
+      },
+      {
+        "fs": 1000,
+        "fm_hz": 10,
+        "delay_s": 0.00817,
+        "dense_cubic_nrmse": 5.964098340840791e-09,
+        "legacy_100hz_linear_nrmse": 0.009756276950784402
+      },
+      {
+        "fs": 1000,
+        "fm_hz": 10,
+        "delay_s": 0.0085,
+        "dense_cubic_nrmse": 1.8657165794141655e-08,
+        "legacy_100hz_linear_nrmse": 0.008317607773127424
+      },
+      {
+        "fs": 1000,
+        "fm_hz": 10,
+        "delay_s": 0.00883,
+        "dense_cubic_nrmse": 5.964098232250054e-09,
+        "legacy_100hz_linear_nrmse": 0.0067375184775223355
+      },
+      {
+        "fs": 2000,
+        "fm_hz": 2,
+        "delay_s": 0.004085,
+        "dense_cubic_nrmse": 5.92811115655055e-13,
+        "legacy_100hz_linear_nrmse": 0.000637384589731377
+      },
+      {
+        "fs": 2000,
+        "fm_hz": 2,
+        "delay_s": 0.00425,
+        "dense_cubic_nrmse": 1.8612134813856513e-12,
+        "legacy_100hz_linear_nrmse": 0.0006446324145530332
+      },
+      {
+        "fs": 2000,
+        "fm_hz": 2,
+        "delay_s": 0.004415,
+        "dense_cubic_nrmse": 5.928028719623224e-13,
+        "legacy_100hz_linear_nrmse": 0.0006504437483956822
+      },
+      {
+        "fs": 2000,
+        "fm_hz": 5,
+        "delay_s": 0.004085,
+        "dense_cubic_nrmse": 2.316708903737012e-11,
+        "legacy_100hz_linear_nrmse": 0.003975482208755259
+      },
+      {
+        "fs": 2000,
+        "fm_hz": 5,
+        "delay_s": 0.00425,
+        "dense_cubic_nrmse": 7.27111032585036e-11,
+        "legacy_100hz_linear_nrmse": 0.004020718083143599
+      },
+      {
+        "fs": 2000,
+        "fm_hz": 5,
+        "delay_s": 0.004415,
+        "dense_cubic_nrmse": 2.3167055409939288e-11,
+        "legacy_100hz_linear_nrmse": 0.004056988867053854
+      },
+      {
+        "fs": 2000,
+        "fm_hz": 10,
+        "delay_s": 0.004085,
+        "dense_cubic_nrmse": 3.7109058798827473e-10,
+        "legacy_100hz_linear_nrmse": 0.01578597965639544
+      },
+      {
+        "fs": 2000,
+        "fm_hz": 10,
+        "delay_s": 0.00425,
+        "dense_cubic_nrmse": 1.1639160905658652e-09,
+        "legacy_100hz_linear_nrmse": 0.015966025908972847
+      },
+      {
+        "fs": 2000,
+        "fm_hz": 10,
+        "delay_s": 0.004415,
+        "dense_cubic_nrmse": 3.7109035854571144e-10,
+        "legacy_100hz_linear_nrmse": 0.016110396489969845
+      },
+      {
+        "fs": 4000,
+        "fm_hz": 2,
+        "delay_s": 0.0020425,
+        "dense_cubic_nrmse": 3.715086338693179e-14,
+        "legacy_100hz_linear_nrmse": 0.0004287219684492486
+      },
+      {
+        "fs": 4000,
+        "fm_hz": 2,
+        "delay_s": 0.002125,
+        "dense_cubic_nrmse": 1.164323082370631e-13,
+        "legacy_100hz_linear_nrmse": 0.0004414155219564531
+      },
+      {
+        "fs": 4000,
+        "fm_hz": 2,
+        "delay_s": 0.0022075,
+        "dense_cubic_nrmse": 3.714903220177258e-14,
+        "legacy_100hz_linear_nrmse": 0.0004537500383139158
+      },
+      {
+        "fs": 4000,
+        "fm_hz": 5,
+        "delay_s": 0.0020425,
+        "dense_cubic_nrmse": 1.447583761605861e-12,
+        "legacy_100hz_linear_nrmse": 0.002673443747061869
+      },
+      {
+        "fs": 4000,
+        "fm_hz": 5,
+        "delay_s": 0.002125,
+        "dense_cubic_nrmse": 4.543990019470561e-12,
+        "legacy_100hz_linear_nrmse": 0.0027526346141803592
+      },
+      {
+        "fs": 4000,
+        "fm_hz": 5,
+        "delay_s": 0.0022075,
+        "dense_cubic_nrmse": 1.4474762731243802e-12,
+        "legacy_100hz_linear_nrmse": 0.0028295875426074366
+      },
+      {
+        "fs": 4000,
+        "fm_hz": 10,
+        "delay_s": 0.0020425,
+        "dense_cubic_nrmse": 2.3167201275981178e-11,
+        "legacy_100hz_linear_nrmse": 0.010607725949410472
+      },
+      {
+        "fs": 4000,
+        "fm_hz": 10,
+        "delay_s": 0.002125,
+        "dense_cubic_nrmse": 7.271121190122805e-11,
+        "legacy_100hz_linear_nrmse": 0.010922446033222493
+      },
+      {
+        "fs": 4000,
+        "fm_hz": 10,
+        "delay_s": 0.0022075,
+        "dense_cubic_nrmse": 2.3166205866508772e-11,
+        "legacy_100hz_linear_nrmse": 0.011228299996623533
+      }
+    ],
+    "scope": "Smooth AM-power oracle through 20 Hz. Does not prove interpolation accuracy for arbitrary transients or out-of-band residuals."
+  },
+  "dense_c_diagnostic": [
+    {
+      "name": "1000_full_rate",
+      "max_absolute_error_fs2": 1.0408340855860843e-17,
+      "diagnostics_do_not_change_output_or_counts": true,
+      "operation_ledger_verified": true
+    },
+    {
+      "name": "1000_prefilter_full_rate",
+      "max_absolute_error_fs2": 1.0408340855860843e-17,
+      "diagnostics_do_not_change_output_or_counts": true,
+      "operation_ledger_verified": true
+    },
+    {
+      "name": "1000_multirate",
+      "max_absolute_error_fs2": 1.0408340855860843e-17,
+      "diagnostics_do_not_change_output_or_counts": true,
+      "operation_ledger_verified": true
+    },
+    {
+      "name": "2000_full_rate",
+      "max_absolute_error_fs2": 1.3660947373317356e-17,
+      "diagnostics_do_not_change_output_or_counts": true,
+      "operation_ledger_verified": true
+    },
+    {
+      "name": "2000_prefilter_full_rate",
+      "max_absolute_error_fs2": 1.6046192152785466e-17,
+      "diagnostics_do_not_change_output_or_counts": true,
+      "operation_ledger_verified": true
+    },
+    {
+      "name": "2000_multirate",
+      "max_absolute_error_fs2": 7.37257477290143e-18,
+      "diagnostics_do_not_change_output_or_counts": true,
+      "operation_ledger_verified": true
+    },
+    {
+      "name": "4000_full_rate",
+      "max_absolute_error_fs2": 3.0791341698588326e-17,
+      "diagnostics_do_not_change_output_or_counts": true,
+      "operation_ledger_verified": true
+    },
+    {
+      "name": "4000_prefilter_full_rate",
+      "max_absolute_error_fs2": 2.3201926491189795e-17,
+      "diagnostics_do_not_change_output_or_counts": true,
+      "operation_ledger_verified": true
+    },
+    {
+      "name": "4000_multirate",
+      "max_absolute_error_fs2": 3.3610267347050637e-18,
+      "diagnostics_do_not_change_output_or_counts": true,
+      "operation_ledger_verified": true
+    },
+    {
+      "name": "2000_multirate_notch",
+      "max_absolute_error_fs2": 6.938893903907228e-18,
+      "diagnostics_do_not_change_output_or_counts": true,
+      "operation_ledger_verified": true
+    }
+  ],
+  "adc_aliasing": {
+    "scope": "Analog-only tone at ADC_fs-110; no desired signal or noise. Very small residuals may lie below the ADC quantization step.",
+    "cases": [
+      {
+        "adc_fs": 1000,
+        "physical_tone_hz": 890,
+        "folded_hz": 110,
+        "expected_analog_amplitude_fs": 5.575244898674522e-05,
+        "measured_unquantized_fold_amplitude_fs": 5.57524489867691e-05,
+        "measured_16bit_adc_fold_amplitude_fs": 6.048449135498085e-05,
+        "adc_clips": 0
+      },
+      {
+        "adc_fs": 2000,
+        "physical_tone_hz": 1890,
+        "folded_hz": 110,
+        "expected_analog_amplitude_fs": 1.28173143191152e-06,
+        "measured_unquantized_fold_amplitude_fs": 1.2817314319635207e-06,
+        "measured_16bit_adc_fold_amplitude_fs": 0.0,
+        "adc_clips": 0
+      },
+      {
+        "adc_fs": 4000,
+        "physical_tone_hz": 3890,
+        "folded_hz": 110,
+        "expected_analog_amplitude_fs": 3.3679606633801265e-08,
+        "measured_unquantized_fold_amplitude_fs": 3.367960677408227e-08,
+        "measured_16bit_adc_fold_amplitude_fs": 0.0,
+        "adc_clips": 0
+      }
+    ]
+  },
+  "digital_decimator_aliasing": {
+    "scope": "Stage-isolated exact floating-point tones; analog and ADC deliberately bypassed. Same bandpass, smoothing, and decimation in both paths.",
+    "cases": [
+      {
+        "input_fs": 2000,
+        "tone_hz": 890,
+        "folded_hz": 110,
+        "measured_rejection_db": 88.0884275927533,
+        "predicted_fir_rejection_db": 88.08842759228926,
+        "filtered_feature_mean_fs2": 7.764745845231099e-12,
+        "unfiltered_feature_mean_fs2": 0.004999999999999816
+      },
+      {
+        "input_fs": 4000,
+        "tone_hz": 890,
+        "folded_hz": 110,
+        "measured_rejection_db": 87.79838394931724,
+        "predicted_fir_rejection_db": 87.79838394970562,
+        "filtered_feature_mean_fs2": 8.301022853535815e-12,
+        "unfiltered_feature_mean_fs2": 0.004999999999999816
+      },
+      {
+        "input_fs": 4000,
+        "tone_hz": 1890,
+        "folded_hz": 110,
+        "measured_rejection_db": 91.45057188322497,
+        "predicted_fir_rejection_db": 91.45057188332117,
+        "filtered_feature_mean_fs2": 3.580245569834101e-12,
+        "unfiltered_feature_mean_fs2": 0.004999999999999827
+      }
+    ]
+  },
+  "component_isolation": {
+    "scope": "One seed, 2 Hz modulation, 2 kHz multirate; diagnostic attribution only, not population statistics. Error terms are not additive after squaring.",
+    "cases": [
+      {
+        "case": "desired_only_unquantized",
+        "against_desired_only_nrmse": 0.0,
+        "quantization_increment_nrmse": 0.0,
+        "mean_shift_fs2": 0.0
+      },
+      {
+        "case": "desired_only_16bit",
+        "against_desired_only_nrmse": 1.563507838520518e-05,
+        "quantization_increment_nrmse": 1.563507838520518e-05,
+        "mean_shift_fs2": 2.7299208349262917e-08
+      },
+      {
+        "case": "desired_plus_noise_unquantized",
+        "against_desired_only_nrmse": 0.012466982839327097,
+        "quantization_increment_nrmse": 0.0,
+        "mean_shift_fs2": 2.5066427913541275e-05
+      },
+      {
+        "case": "desired_plus_noise_16bit",
+        "against_desired_only_nrmse": 0.012466698801660292,
+        "quantization_increment_nrmse": 1.7672509245348845e-05,
+        "mean_shift_fs2": 2.5099998645394333e-05
+      },
+      {
+        "case": "desired_plus_interference_unquantized",
+        "against_desired_only_nrmse": 0.004581734935415784,
+        "quantization_increment_nrmse": 0.0,
+        "mean_shift_fs2": 9.966811420356716e-05
+      },
+      {
+        "case": "desired_plus_interference_16bit",
+        "against_desired_only_nrmse": 0.004578294453612647,
+        "quantization_increment_nrmse": 1.6880185409831423e-05,
+        "mean_shift_fs2": 9.959261074258586e-05
+      },
+      {
+        "case": "all_components_unquantized",
+        "against_desired_only_nrmse": 0.013677504959451315,
+        "quantization_increment_nrmse": 0.0,
+        "mean_shift_fs2": 0.00012467178832256887
+      },
+      {
+        "case": "all_components_16bit",
+        "against_desired_only_nrmse": 0.013678007448894119,
+        "quantization_increment_nrmse": 1.768991316078962e-05,
+        "mean_shift_fs2": 0.0001246843184136013
+      }
+    ]
+  },
+  "nominal_noisy_alignment": {
+    "scope": "One seed, 2 Hz, full-rate 2 kHz, fixed fractional queries; not a bound for other spectra.",
+    "passed": true,
+    "fractional_query_samples": 940,
+    "held_out_half_rate_nrmse": 1.4843619587775484e-07,
+    "cubic_vs_sinc128_nrmse": 1.3489066934946015e-07,
+    "sinc64_vs_sinc128_nrmse": 7.927878420509237e-08,
+    "held_out_samples": 9390,
+    "query_samples": 940
+  }
+}

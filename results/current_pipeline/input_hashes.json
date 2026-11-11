@@ -1,0 +1,722 @@
+[
+  {
+    "fs": 1000,
+    "fm_hz": 2,
+    "seed": 1,
+    "sha256": "50970311aa8e4cdeb1e122da2abd6865b15202b5dfaf882aef5bb8017e8c3013"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 2,
+    "seed": 1,
+    "sha256": "2a6158622aae56c517449c5f5f2351d190869bef3837ae0d16270a7b9b882f37"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 2,
+    "seed": 1,
+    "sha256": "9bd1f9868160f3360eab71d18c3b2d803be8423a2557f4735a777d8cdb5b4739"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 2,
+    "seed": 2,
+    "sha256": "c6bd3d36afa368c22820745256abfaf462e2f990b6c11051df34bb385c6e9c2a"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 2,
+    "seed": 2,
+    "sha256": "cc04760818b238601bc9d75d558ffc5785d60c729807efce6ab683e8a91a6ab1"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 2,
+    "seed": 2,
+    "sha256": "19490c9f7ff816e3743ab0ab77ca5266be7dac472bc640c388b97e34d9cdfb6c"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 2,
+    "seed": 3,
+    "sha256": "3c229ddaef780b56a0236b1bc300d17b0b45ffa7fc32b603eb50752134e46efb"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 2,
+    "seed": 3,
+    "sha256": "9e02630561c582c3e9ede79c127375f3e9935d47164b6ee8a95b709c5bcf98d3"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 2,
+    "seed": 3,
+    "sha256": "833fe17bf9c9f4413403bf2788bd3959b2e88d588578992d54c1d728fa15f056"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 2,
+    "seed": 4,
+    "sha256": "b9284d40231a5eba9b186446cadc70564ff767578547382153046380103b900b"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 2,
+    "seed": 4,
+    "sha256": "c305edc14acdcedae17b74d6372a81b8ff8a0b18ca555d0d96d4da059fc020b2"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 2,
+    "seed": 4,
+    "sha256": "429a1b1874f0e7500e02eafbaa8be4d374aea7e17ea5ad47c4a9984a1059c333"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 2,
+    "seed": 5,
+    "sha256": "766abfc5f459594c7b9428ab3fb5192a56d1563b4cbe33b512ecf385cb6184e6"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 2,
+    "seed": 5,
+    "sha256": "513ce39d7d9ca32c163c73d98e95011a234df35f4d713f0ad9250d8be200d69a"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 2,
+    "seed": 5,
+    "sha256": "9c53484ff6b188d2cd61ec8cfef3c10694089985f9f68c148327168cc78106ac"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 2,
+    "seed": 6,
+    "sha256": "c04b135be9763018373a700dfb656a0a7796bb19c765215415674ad6e0d67a4b"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 2,
+    "seed": 6,
+    "sha256": "2ae3e94eef883538b7aad975eea601f9ce45c7f2d8966c93105e954101818906"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 2,
+    "seed": 6,
+    "sha256": "96b85261a421ba998c134b2cc0d460f78a42811a364a0b84a5e66556f0b3dfbe"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 2,
+    "seed": 7,
+    "sha256": "5c48bab0afad4b17910e9af7718a5af97ab144762b0af0dd0118d23932ecb5ca"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 2,
+    "seed": 7,
+    "sha256": "ca8ce67e71bdae4c0eb0025c1ea859328b6428b62a91963b76264dcd6be041c0"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 2,
+    "seed": 7,
+    "sha256": "46ace77435f0c987d5b72f9cbd0a43eea52e59370a9af183cb7ba2e0757bc52a"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 2,
+    "seed": 8,
+    "sha256": "94266483453c3c728036717090454d2f5ac23629fca809641fa200fc41db7b58"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 2,
+    "seed": 8,
+    "sha256": "ba4303f2d9805ae9dddd3f28b65af7093510c091ea16621d49f1a6cec4bf4fed"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 2,
+    "seed": 8,
+    "sha256": "7a514b937f85c3e8f6cccd26bb05cae35f775601a8bcf5ccbe40d93d766cfabd"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 2,
+    "seed": 9,
+    "sha256": "0ed5ef62d15941d807ac660d99a2e27fb8aa2ee10e90139c2ff1809fdc9ec0cb"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 2,
+    "seed": 9,
+    "sha256": "52185357207208cb4721ebc3fbe2770f62e4eee97ecd05b1c9bf5972247a67b3"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 2,
+    "seed": 9,
+    "sha256": "1bb83953c81719ae8984772b2fa6fcdecde19856328dbd960e9edb7bf2081ed9"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 2,
+    "seed": 10,
+    "sha256": "fc4e60b5a6b5ca72643e9cd655f722d49f8d9943e1f06ced1807c813b5aa3473"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 2,
+    "seed": 10,
+    "sha256": "07f07ebf1e403c68a269efede7829c3d0678af0441de2ab31b49e615217ee2ee"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 2,
+    "seed": 10,
+    "sha256": "f13243c30a731bc5a2b56756e7e82cdcfe20d356e9dc6e60e7274e7e798b8134"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 2,
+    "seed": 11,
+    "sha256": "f576fd1e87aa1ee021362b9564a4655b69c4cd845818be1efeae0131f3b068c7"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 2,
+    "seed": 11,
+    "sha256": "f36868960b41d8015908136074b6ea2737d6ccfa468d0e6174201a4cf7a52b32"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 2,
+    "seed": 11,
+    "sha256": "e4a6756ca9c3ee48e7707eefd9771fccf9192b468b4b4894ae3b6c796825f1ef"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 2,
+    "seed": 12,
+    "sha256": "082800db1e09b77bb8b1968cb5a5323981328f2a17d934c61c0663ce8997b3f9"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 2,
+    "seed": 12,
+    "sha256": "f2772a910eda15ed4e298d38837a4446dbbe75fd98e3a46c5f1855b3e66d39b1"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 2,
+    "seed": 12,
+    "sha256": "1c1723d2467db23647ba16ba27742ec1cb96a3fac7e1e5281cbf6a4a67ce1b0f"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 2,
+    "seed": 13,
+    "sha256": "335f0a16d2d438abb1914c117db80254d97e55d5c5816b7cd46a3cf59b807342"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 2,
+    "seed": 13,
+    "sha256": "518878496ffc026ca42f47c8a8d5718b1e88787002c4bc7d2472810628bf8a2b"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 2,
+    "seed": 13,
+    "sha256": "205e58a1152a59ad8b89655473fdfdedf0994c3e0a1b078d5877ec84359b1c66"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 2,
+    "seed": 14,
+    "sha256": "62d504aaba94737edbe567839a9ebf87be1d745c77ee371472031d2e6a771d4a"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 2,
+    "seed": 14,
+    "sha256": "d63aba90890b09c5b0ee69574819823d54639565393c5ba2183505dcb3a4fc94"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 2,
+    "seed": 14,
+    "sha256": "cd2d1d16e1eeb2a5d1b96da1e65d21d3ab603f9a8c28bc44fb0f5bf013de6183"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 2,
+    "seed": 15,
+    "sha256": "13e298d3aa37258f4478ed3f4b005b24dbfaacc5aab611f106259a4d15e0f361"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 2,
+    "seed": 15,
+    "sha256": "5b5d2eb406c26431e552211c9270d5c40f38519fe09748f2d46b7a7d2c3e8a95"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 2,
+    "seed": 15,
+    "sha256": "30ed4ba3e4fb4d04940771e6b98f0c1cd4a4a0fc54f2fd0e2bb3c9924e4f3b69"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 2,
+    "seed": 16,
+    "sha256": "a78fed9fdcfa981055386e5170a96c47a460ab4bd3057470689522cc00cfe6f9"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 2,
+    "seed": 16,
+    "sha256": "19acede0b3fe3ae22b5bccf44fe4d171876c5e07beda952c934a53cc5ad5ff0e"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 2,
+    "seed": 16,
+    "sha256": "95b9665df8dcf750ee78f65e86aec8bed5b5d8e9b266f2196d3d4cdd3ae907bc"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 2,
+    "seed": 17,
+    "sha256": "411e749452aaf11b5c90f8d103df74580ff389308d7e42d641cb7e84f9245bdf"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 2,
+    "seed": 17,
+    "sha256": "e94d9b710af2dc8826d6fba0f537ff93bae4e76831b836ecd7ed72235a2d28ab"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 2,
+    "seed": 17,
+    "sha256": "9117c8b9b23152970c149e34f121e5d809a85c1d5caba25cb8c4a988e41f3721"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 2,
+    "seed": 18,
+    "sha256": "0a1be2ae90f4d054b3b7d0d38703139072fe0afff6afaf61a6ac8b6b45fa319e"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 2,
+    "seed": 18,
+    "sha256": "398bc793d4a42269da00ba4b7a0eaadabb988a19711b77cdc63ec1a5c099dc97"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 2,
+    "seed": 18,
+    "sha256": "c97a2cdd0c147bd77d3b529d8bf8aea3a45d9afd0f4ce137717a53eb0510f366"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 2,
+    "seed": 19,
+    "sha256": "7a654087f8259ec7d8b52ba3be23fa6e8c317bf7229d047b9a616a241cb32c83"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 2,
+    "seed": 19,
+    "sha256": "84122339ae62f15cb663e1cb55f6415b5bafe967d8b03563b788870db71ac684"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 2,
+    "seed": 19,
+    "sha256": "34affd28619675ec3464b678ba4ec323b08e7dcc273da003d7f6b9633bda1485"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 2,
+    "seed": 20,
+    "sha256": "1f246cdb39e3b3f863cef1222e9bb425365f97eaa84ec1dc50d8b0bc16beff67"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 2,
+    "seed": 20,
+    "sha256": "e39be1fff0b9b0250dafad5bb49bcd3529b90e11cef01d5cebeb7f3528729bd5"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 2,
+    "seed": 20,
+    "sha256": "ffc02170d159ef590b773b4801f74bb26862b622dff29222fdfa4be65ca9c98a"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 5,
+    "seed": 1,
+    "sha256": "8444a1d5b0a18dc267732ce8045727c0cbbce08c9fac8cd8b8a46a333de04e83"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 5,
+    "seed": 1,
+    "sha256": "c2f6ece65e74928c8f505d9708c18b8d2f4f901bb7ff8876a65d9fab6dabd5eb"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 5,
+    "seed": 1,
+    "sha256": "e32e5148c68796c95405f494c1d99079674ccd783c63d467f353b69ddb372139"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 5,
+    "seed": 2,
+    "sha256": "15531f58cfe0f045c1d17d251df4182d7cf5bf3d72f61d79537a04b2e82f8a45"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 5,
+    "seed": 2,
+    "sha256": "8cd97d4264026ed6ecc0ade75433c9a6d043e81c57e1fae5a404331bc24f796f"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 5,
+    "seed": 2,
+    "sha256": "55276796713e77240528147ccf999aae57efc411cfde0fe34ff5df44daca390d"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 5,
+    "seed": 3,
+    "sha256": "b1bb63f77f106aab7f60110d70d3175513bc2f69fc2746d01976f948337f8a8c"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 5,
+    "seed": 3,
+    "sha256": "3b76c085c9e000798c9dc20018763c8be9c1218be8f0efe171a2b2863b12317e"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 5,
+    "seed": 3,
+    "sha256": "362e9d1ece03ceb3f9585f24481c4de2ff1fd113ca8b3b44dffc1fae952393fb"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 5,
+    "seed": 4,
+    "sha256": "30cef3b0f27a4b51bd63f428c7c40f53a8c5bb69e3f0acc1e3c31cf658af876a"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 5,
+    "seed": 4,
+    "sha256": "67ba5b3cacdfa210c0d9609635fa55384478a9f515d4a1fe4298539c900585ab"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 5,
+    "seed": 4,
+    "sha256": "3b2a1943c4df3fe137fd316412fd7d4b375739d233265042c071f58a352e854e"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 5,
+    "seed": 5,
+    "sha256": "512e492a94134ba05e6335cfa462816ca6dc3b54a93259df06b4514bf088fbc2"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 5,
+    "seed": 5,
+    "sha256": "51dac0da7f39dc8265d4ffe20d9f77eda69092aa0dfd3d4f9d1e5647928570c9"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 5,
+    "seed": 5,
+    "sha256": "f777176f29cc5b3f4a1256810a378de8dbeb20b07a17d5ef4b33ed2b3e069c98"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 5,
+    "seed": 6,
+    "sha256": "78ccfb5a59daea0460a0135cf04bab3b8868c3868335ccd2bef9cac134e5505f"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 5,
+    "seed": 6,
+    "sha256": "a3c20c098f1c7f3a8fb009ebda47252b22aa6ded84a42db6f2fe3bd01b437830"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 5,
+    "seed": 6,
+    "sha256": "1b26b605893dacc8cb2ae55ea50bb9af0b0ec0f89d363de8747b36288c2fcc8b"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 5,
+    "seed": 7,
+    "sha256": "5589665feb8ce27f64664d702eb5a295705bcefb0f0db7404265eabf9933adde"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 5,
+    "seed": 7,
+    "sha256": "2d47a016c47ca04da2b76f141888f9ce98438a23fb4c0c39b4f08af2b931a153"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 5,
+    "seed": 7,
+    "sha256": "67b5f639182310b1ab210a1e066084d8b9da3b563afef42ee8717da60b26a403"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 5,
+    "seed": 8,
+    "sha256": "c20aca0039820954b95f9aeb3fb8122dfa41007dc3c6d6f1ee6fb38a7dfd3c62"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 5,
+    "seed": 8,
+    "sha256": "8f8ee92fd595c1ecdaa87905bbacac4c9456c1efeca05dfd1bc2e2774dc9f4aa"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 5,
+    "seed": 8,
+    "sha256": "9610bb42cb709ec7ae7b377d64b46408b2ab1aa68d4814fc90226816df30e3de"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 5,
+    "seed": 9,
+    "sha256": "3d1e54ede73c2a7f096897d46247bc10f1700621cc01543beb56dc08bd449370"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 5,
+    "seed": 9,
+    "sha256": "6c2e9c1cc5eacec0d61593481f885b127302e9838d8b7bd88aaec4061e6d5639"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 5,
+    "seed": 9,
+    "sha256": "3817049681b6b34302f9aacf6d9028f4fd7f2e04956168dc612adf82df6d2f15"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 5,
+    "seed": 10,
+    "sha256": "d9758f37b0341a1af75fce9f6bc238a2a6d41989074273e2ec3c3c95da1ea073"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 5,
+    "seed": 10,
+    "sha256": "57ceea5704d7b0f9a8685461e48061a826d9eb4ec5d2db14c20ec95a5541352f"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 5,
+    "seed": 10,
+    "sha256": "3c7b1af5eda74ce1ae5b5654392f8a192b2e7309a304792d43ee1c935899fc90"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 5,
+    "seed": 11,
+    "sha256": "bbbc932df7c8ac9f9a559121f2333b24facdd1f00fcf06f2e68cfb76ff19c78a"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 5,
+    "seed": 11,
+    "sha256": "7cf3367673e84e4d4f5910637155c25ebfb131c8ce4e0f11ac88fa40de64ec00"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 5,
+    "seed": 11,
+    "sha256": "e4cb0c8ce69100bc08fbf7302b8cb616c0ffedbd054069fe5ca27373aa831424"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 5,
+    "seed": 12,
+    "sha256": "25ef08cadd773f07f2a47c2f45c90d714358e3cfa2f68964e9930cd0f75d0695"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 5,
+    "seed": 12,
+    "sha256": "c521b86d163ba259f2e5dba6c0319739db161a851bc427a1d285c47ad254893d"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 5,
+    "seed": 12,
+    "sha256": "2354fd4ee11985ac874f6eeb3f3c72a6f4b6206dc8ad99e092ebd7190dbbc4ce"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 5,
+    "seed": 13,
+    "sha256": "ae5134da39f86a25418bf4a15b88f9623dde601da3e7b2f203c5422dcc50ad51"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 5,
+    "seed": 13,
+    "sha256": "32d6f8718dd4251bc45b0c18af995ee75ae1d27ad057887a32b764e52a99b555"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 5,
+    "seed": 13,
+    "sha256": "e5cc3873a561015ca9f146aa873ea966988a7dd990592de56cb39c1515c5205a"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 5,
+    "seed": 14,
+    "sha256": "4bcc1c69742a08250bef9994dfd18888eac316e74f10bb64ea9ce965b49feedd"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 5,
+    "seed": 14,
+    "sha256": "22b538cdfd30534df1771db3e3710671fb65fe0d95450790e26eb04c0c5d4290"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 5,
+    "seed": 14,
+    "sha256": "802b3d19ff8ed2dc3166e01b4821343f3e1c5e1834b2de162e0076767bbcc5a5"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 5,
+    "seed": 15,
+    "sha256": "4ee8f32b834211244bbbfa4387fee3f94d9e2ea577355f62da819e82704f4202"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 5,
+    "seed": 15,
+    "sha256": "4ed68913877735940f243d83104c7d33a49dab128c900137d6615ca34a20a781"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 5,
+    "seed": 15,
+    "sha256": "469f1a7236c454d9a3c472cdbd0caf336cd40189e2faaeff28e4eb528125ced4"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 5,
+    "seed": 16,
+    "sha256": "82d85d21782ed7e62c0598da24bbae3ba387bf965c04e2921da3dacc6aacbc58"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 5,
+    "seed": 16,
+    "sha256": "1ad3a1e0a47e7d86199205516f9c5bcd3cb371b39ca8179035b4bf0c57dc3199"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 5,
+    "seed": 16,
+    "sha256": "6d4c4449e8bb482593b67601870f915948b0b96395fb989ad9a35f2b9b15baa8"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 5,
+    "seed": 17,
+    "sha256": "32c8c373dc0e36fc4aab0d9cf09077e63f17c580da05d08ba04b8512c413a8ad"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 5,
+    "seed": 17,
+    "sha256": "324def5bcd330e571594703198a3e71cc91fcb92ab3c70c822c046890e6a9e48"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 5,
+    "seed": 17,
+    "sha256": "3839d71d3f6b608b31739e41860021ed8fe49a5c959426974d8bd407cb41accc"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 5,
+    "seed": 18,
+    "sha256": "ee5e6c033bc72a4c614963656acd4a7a2d8b1e01109394942aa6b7a389d2f8ba"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 5,
+    "seed": 18,
+    "sha256": "0db57fb0cb92f7b81da8413f33e33e01d5c08f99c7f9f24c2a955a8af9bcdb2b"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 5,
+    "seed": 18,
+    "sha256": "c97b8566fdc5ff843ce0b4278677636ec33de76b85804a98cc0f9b997ddcac27"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 5,
+    "seed": 19,
+    "sha256": "581e8374d5cdf794c3444364fe84fc9b6174f14620ee15ee60ae5fe029b7c471"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 5,
+    "seed": 19,
+    "sha256": "feca89389a5e3b16c638e822a09af6ad400b1b3c93ec02ccb62d912f773be61b"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 5,
+    "seed": 19,
+    "sha256": "ca949f55336dfd102ec16c032669f7c441f6c73d66c51bc13956b90f954a27e4"
+  },
+  {
+    "fs": 1000,
+    "fm_hz": 5,
+    "seed": 20,
+    "sha256": "79cc1f9e630075040edf3a0d9cebdbe21362f783efc750c6b196a766e368e722"
+  },
+  {
+    "fs": 2000,
+    "fm_hz": 5,
+    "seed": 20,
+    "sha256": "d90ec76e06ef692e9b896115e8ee4b4d91c0df0e6627a087fd533f8a0a2964af"
+  },
+  {
+    "fs": 4000,
+    "fm_hz": 5,
+    "seed": 20,
+    "sha256": "7681c7bd0a4dee2d2bd0b0a67989bf9eaef8ba7ffc3420ae37aab90298ac4bb0"
+  }
+]

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="C/Python simulation of the end-to-end neural signal chain, with controlled comparisons of feature error, signal delay, and arithmetic work."><meta name="theme-color" content="#ffffff"><title>End-to-End Neural Signal Chain Simulation</title>
+<link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="v3.css"><script src="v3.js" defer></script></head><body>
+<a class="skip" href="#main">Skip to report</a><header><span>Binoy Daniel</span></header><main id="main">
+<section id="overview"><h1>End-to-End Neural Signal Chain Simulation</h1>
+<p id="motivation" class="body-copy"><b>Motivation:</b> Through the interview process, I found myself thinking more deeply about the end-to-end neural signal chain and how noise and design choices at each stage affect the signal available for feature extraction. I built this simulation for myself to make those interactions more concrete by comparing signal-chain conditions and measuring what changes in the downstream feature. The simulation is a way to show how I approached the problem: define a focused question, make the assumptions explicit, compare processing paths, and identify what I’d want to validate with bench measurements and real neural data.</p>
+<p id="approach"><b>Approach:</b> I compare three processing paths on the same ADC samples: full rate, a prefilter control, and multirate processing at 1 kHz. The signal-chain simulation and stateful DSP run in C. I use Python to set parameters, design filters, run the sweeps, and check the outputs against analytical and SciPy references.</p>
+<p id="model-scope"><b>Model and scope:</b> I’m using a synthetic 110 Hz carrier with 2 / 5 Hz modulation and 20 paired noise seeds. This version is single-channel, with an ideal 16-bit ADC and double-precision DSP. I haven’t tied the model to measured hardware or established execution time or power consumption.</p>
+<p class="result-note"><b>Result:</b> In the nominal case, I get <b id="headline-error">0.019%</b> maximum aligned clean-feature error versus full rate, about <b>103 ms</b> signal delay, and <b>23% / 48%</b> fewer multiplications at 2 / 4 kHz ADC rates.</p>
+<div class="links"><a href="#comparison">See the comparisons ↓</a><a href="methods.html">Detailed methods and limits</a></div></section>
+<section id="pipeline"><h2>Signal chain pipeline</h2>
+<figure class="pipeline-figure flowchart"><picture><source media="(min-width:640px)" srcset="pipeline-v3.svg"><img src="pipeline-v3-mobile.svg" width="380" height="850" alt="Source, analog low-pass, and ADC feed three causal paths. A processes at the ADC rate. B adds the acquisition FIR and keeps bandpass processing at the ADC rate. C uses the same FIR and decimates to 1 kHz. Each path bandpasses, squares, smooths, and emits 100 Hz power features."></picture>
+<figcaption class="body-copy">I included path B so I could separate the acquisition FIR’s effect from rate reduction and downstream filter redesign. Each path gets the same ADC samples. At a 1 kHz ADC rate they coincide; the baseline notch is off.</figcaption>
+</figure>
+<p class="body-copy"><b>Why this output?</b> I used smoothed 70–150 Hz power as a defined feature to compare across the pipelines. Squaring and smoothing produce a local mean-square estimate, which I output at 100 Hz. I still need to test whether this feature is useful for a real downstream task and whether its delay is acceptable. <a href="methods.html">My design choices →</a></p></section>
+<section id="comparison"><h2>What changes when I reduce the rate?</h2>
+<ol class="comparison-questions">
+<li><p><b>Does the feature hold up?</b></p><p>For the nominal 110 Hz cases at 2 / 4 kHz ADC rates, yes. The clean multirate feature stays within 0.019% NRMSE of the full-rate reference after independent delay alignment. I check the noisy path separately; its aligned error is about 0.28–0.29%. That tells me the feature is preserved in this model. I still need real data to judge its usefulness.</p></li>
+<li><p><b>Why the prefilter?</b></p><p>I included path B to separate the acquisition FIR’s effect from rate reduction. Comparing A with B shows what the added FIR changes while keeping the full processing rate. Comparing B with C then adds decimation and redesigned downstream filters. That gives me a control for interpreting where the differences come from.</p></li>
+<li><p><b>What does delay change?</b></p><p>The filters shift the feature in time, so comparing the original timestamps includes that shift in the error. I use an independent clean calibration to align the reference and inspect the remaining difference. That is an offline comparison: the nominal 2 / 4 kHz multirate cases still have about 103 ms of signal delay. CPU, scheduling, and transport time remain unmeasured.</p></li>
+</ol>
+<p class="body-copy">The controls below let me inspect the recorded cases behind these comparisons.</p>
+<div id="load-error" role="alert" hidden>Recorded data could not load. <a href="methods.html">Read the methods and limits</a> or reload this page.</div>
+<div class="experiment" id="experiment" aria-busy="true">
+<div class="controls">
+<label>ADC sampling rate<select id="adc-rate" disabled><option value="1000">1 kHz</option><option value="2000" selected>2 kHz</option><option value="4000">4 kHz</option></select></label>
+<label>Envelope modulation<select id="modulation" disabled><option value="2">2 Hz</option><option value="5">5 Hz</option></select></label>
+<label>Architecture<select id="architecture" disabled><option value="full_rate">A · Full rate</option><option value="prefilter_full_rate">B · Prefilter control</option><option value="multirate" selected>C · Multirate</option><option value="multirate_notch">C + 60 Hz notch (secondary)</option></select></label>
+<label>Noise seed<select id="seed" disabled></select></label>
+</div>
+<div class="plot-controls"><label>Signal content<select id="content" disabled><option value="clean" selected>Clean path · preservation</option><option value="noisy">ADC path · noise + interference</option></select></label><label>Comparison timing<select id="alignment" disabled><option value="aligned" selected>Fixed relative-delay alignment</option><option value="original">Original timestamps</option></select></label><button id="reset" class="text-button" disabled>Reset selection</button></div>
+<div id="record-label" class="record-label" aria-live="polite">Loading recorded data…</div>
+<div class="chart-pair"><div><h3 class="chart-title">Feature overlay</h3><div id="feature-chart" class="chart" tabindex="0" role="group" aria-label="Recorded feature comparison. Arrow keys inspect samples; Home and End jump to the ends."></div></div><div><h3 class="chart-title">Selected − full-rate reference</h3><div id="difference-chart" class="chart difference-chart" tabindex="0" role="group" aria-label="Feature difference. Arrow keys inspect samples; Home and End jump to the ends."></div></div></div>
+<div class="legend"><span><i class="selected-line"></i>Selected architecture</span><span><i class="reference-line"></i>Full-rate reference</span></div>
+<p class="difference-note">The two traces nearly overlap in some cases, so I also show their difference. That panel has its own symmetric FS² scale; both panels use the same recorded timestamps.</p>
+<p id="plot-readout" class="readout" aria-live="polite">Focus the chart and use ← / → to inspect a recorded sample.</p>
+<p id="alignment-note" class="note"></p>
+<div id="metrics" class="metrics" aria-live="polite"></div>
+<p id="metric-scope" class="note"></p>
+</div>
+
+<h3>What’s contributing to the delay?</h3><div id="delay-breakdown" class="delay-breakdown" aria-live="polite"></div><p id="realization" class="note"></p>
+<h3>Multirate results across 20 noise seeds</h3>
+<div class="table-scroll"><table><caption class="summary-caption">This fixed table compares the multirate path against full-rate processing at the same ADC rate, using the independent calibration for alignment. It does not change with the controls above. The clean results stay the same across noise seeds.</caption><thead><tr><th>ADC</th><th>Modulation</th><th>Clean paired NRMSE</th><th>Noisy NRMSE<br>mean / observed max</th><th>Signal delay</th><th>Multiplications/s<br>full → multirate</th></tr></thead><tbody id="summary-rows"></tbody></table></div>
+
+<h3>How I’m reading the results</h3>
+<p class="measurement-short"><b>NRMSE:</b> RMS error / RMS reference; clean preservation and noisy comparison are separate. <b>Mean bias:</b> clean power versus the analytic target A(t)²/2. <b>Delay:</b> independent clean phase calibration, not CPU time. <b>Work:</b> deployed multiplication counts, not cycles or energy.</p>
+<p class="body-copy">These controls load recorded runs. I show 6–7 s in the plots, but calculate metrics over the full valid interval of each 20 s record. For alignment, I shift only the reference using the independent calibration; I don’t fit a new lag or gain for each noise seed. <a href="methods.html#measurements">Full measurement definitions →</a></p></section>
+<section id="validation"><h2>What I checked</h2>
+<p>I compared the C outputs with independent causal SciPy references, checked that block boundaries preserve state, and tested ADC rounding and overload. I also checked that the extra diagnostic calculations leave the deployed outputs and operation counts unchanged.</p>
+<p id="audit-result">I checked alignment sensitivity across all 400 recorded noisy comparisons. Those checks apply to these cases; I haven’t established a bound for arbitrary transients.</p>
+<p id="alias-result">I tested tones that fold directly into 110 Hz to check the acquisition FIR. That tests selected aliasing cases; it doesn’t settle worst-case broadband performance.</p>
+<p id="screens" class="note">Nominal clean bias, preservation, delay, and ADC-clipping screens passed. Project screens, not product requirements.</p>
+<h3>What I’m still simplifying</h3><p>So far, I’ve tested one carrier and two modulation rates with an idealized analog response and white noise. I haven’t calibrated an electrode / amplifier model or tested real neural data, band edges, or artifacts. Fixed-point behavior, referencing, and target timing, memory, buffers, and energy also remain unvalidated for this chain. The 20 seeds are a pilot.</p>
+<h3>What I’d measure next</h3><p>The next thing I’d want is bench data: transfer response, noise PSD, folding interference, and overload recovery. I’d use that to check where the model agrees with the hardware and where it needs changing. Then I’d test feature usefulness on real recordings and work through target arithmetic and timing. <a href="methods.html#limits">Full limitations →</a></p>
+</section>
+
+</main>
+<noscript><p class="noscript">JavaScript is needed for recorded-case selection and charts. <a href="methods.html">Read the methods and limits</a>.</p></noscript></body></html>

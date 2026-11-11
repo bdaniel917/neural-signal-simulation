@@ -1,0 +1,35 @@
+{
+  "started_utc": "2026-11-11T19:33:40.862934+00:00",
+  "status": "incomplete unless manifest.json exists and verifies",
+  "command": [
+    "pipeline_v3/study.py",
+    "--trials",
+    "20",
+    "--output",
+    "results/current_pipeline"
+  ],
+  "arguments": {
+    "trials": 20,
+    "duration": 20,
+    "output": "results/current_pipeline",
+    "validate_only": false,
+    "alignment_archive": null
+  },
+  "source_sha256": {
+    "pipeline_v3/validate_source.py": "51569acb0dfb2fb47aa4604eaa3baca15e3023ec43f7275266d5d8477b8a7649",
+    "pipeline_v3/alignment_checks.py": "400437bb702cffef48293addff9e0ffee3f4e7a099b23592cf72ca69ccee7d33",
+    "pipeline_v3/targeted_checks.py": "e8f4b3fbd853f86c22ea957b1d65d80fc17fcb7ecbe06bd50fcf5358d2c7ae7e",
+    "pipeline_v3/test_alignment.py": "794fecd32598b04c06dd7a06d02c48dc6ff251d13aa3dd53f8ac7d13e8914ef9",
+    "pipeline_v3/test_evidence.py": "bbae3f6ddd7c595d00728e2c99aadb10bb144bbb8ed49994fad79825925f15e9",
+    "pipeline_v3/evidence.py": "61697bb58e94b70dd8e4da5dcbab6e6803796ce7393e3d4c33550532c33d318a",
+    "pipeline_v3/study.py": "1f0a88ec270039b56ffd7ddf3f4dd67498297c74e502ba9e7584c24442808775",
+    "pipeline_v3/runner.c": "2968e1a7673f54a53a096da3fad08adf21f8efc0aec562425713cca24b95b0f1",
+    "pipeline_v3/stimulus.c": "7541d237baf8fbaabdaeb5686347d89f61ed0db6a8bf5bd7c2ba53711e3664f3",
+    "pipeline_v3/double_dsp.h": "3a8aa47a48231ebc3114a96e0bab48721bc17ccb3357c9f207437465bcaa3f0d",
+    "pipeline_v3/README.md": "c2d5fd12b2f3ccb74badc7ee61d96275401bfb3b9d5e3b5a91250daf5501f2af",
+    "build.py": "65ecb50d1ca1eb97eb2cf67b7ab24e2f30f65a67d578e5d623ecb44d10387991",
+    "requirements.txt": "48061e7fa7686b876b0221aaf663c6576c4aacc7227c1bb192d6250c5d037494",
+    "Makefile": "48337f914f45d41b2493b42f1e314fb5b3c7e63df70cdaa85dbdd3361bea11c7",
+    "docs/PIPELINE_V3_SPEC.md": "00c2ad44f970665b3396361c30795c2daa4444931567a8af7d1f466afcb3ff46"
+  }
+}

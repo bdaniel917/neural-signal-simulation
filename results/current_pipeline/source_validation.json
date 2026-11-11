@@ -1,0 +1,59 @@
+{
+  "analytic_three_tone_max_abs_error_fs": 3.1931401967000284e-13,
+  "adc_rounding_and_saturation": "passed",
+  "noise_rms_fs": 0.002859228286435053,
+  "predicted_continuous_noise_rms_fs": 0.0028446156599504836,
+  "noise_relative_error": 0.005136942290764113,
+  "noise_rms_screen_tolerance": 0.07,
+  "overrange_adc_clips": 28577,
+  "line_frequency_guard": [
+    {
+      "line_hz": 60,
+      "expected_rejected": false,
+      "returncode": 0,
+      "output_created": true
+    },
+    {
+      "line_hz": 39999,
+      "expected_rejected": false,
+      "returncode": 0,
+      "output_created": true
+    },
+    {
+      "line_hz": 40000,
+      "expected_rejected": true,
+      "returncode": 2,
+      "output_created": false
+    },
+    {
+      "line_hz": 80110,
+      "expected_rejected": true,
+      "returncode": 2,
+      "output_created": false
+    }
+  ],
+  "standalone_optimization_guard": [
+    {
+      "flag": "-O",
+      "returncode": 2,
+      "evidence_created": false
+    },
+    {
+      "flag": "-OO",
+      "returncode": 2,
+      "evidence_created": false
+    }
+  ],
+  "callable_optimization_guard": [
+    {
+      "flag": "-O",
+      "returncode": 1,
+      "rejected": true
+    },
+    {
+      "flag": "-OO",
+      "returncode": 1,
+      "rejected": true
+    }
+  ]
+}
